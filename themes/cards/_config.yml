@@ -373,12 +373,12 @@ lazyload:
 
 # 站内搜索插件
 search:
-  enable: false
+  enable: true
   path: search.json
   field: All  # Page | Post | All
 
 # note 标签插件
-note: false
+note: true
 
 # fold 内容折叠插件
 fold: 
@@ -388,14 +388,14 @@ fold:
 
 # 图片点击放大插件
 fancybox: 
-  enable: false
-  auto: false
+  enable: true
+  auto: true
   
 # 返回顶部
-back_to_top: false
+back_to_top: true
 
 # 深色模式
-darkmode: false
+darkmode: true
 
 
 
