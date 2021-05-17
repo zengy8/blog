@@ -56,8 +56,6 @@ navbar:
       url: /tags/
     - name: 归档
       url: /archives/
-    - name: 类别
-      url: /categories/
   # 导航栏永远显示在屏幕顶端
   # 仅当屏幕宽度不小于 1080 px 时生效
   sticky: false
@@ -165,7 +163,7 @@ meta:
 
   # 文章目录
   toc: 
-    enable: false
+    enable: true
     list_number: false
 
   # 文章版权声明
