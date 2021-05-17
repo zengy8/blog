@@ -46,7 +46,7 @@ head:
 navbar: 
 
   # 左侧名称显示
-  sitename: ''
+  sitename: ' '
   
   # 右侧站内导航链接
   menu: 
