@@ -10,11 +10,11 @@ categories:
 comments: true
 ---
 
-## 1. 需求背景
+### 1. 需求背景
 客户要求spark和mongo整合一下，提供的截图是spark连接mongodb报错
 ![](http://zengy.cn-gd.ufileos.com/6a858c2d746dc1a7153c6029a0e429f7.png)  
 
-## 2. 处理流程
+### 2. 处理流程
 查看报错信息是执行缺少相关的类，网上搜索了下找到下列网址
 https://spark-packages.org/package/mongodb/mongo-spark
 但是不确定该下哪个包，这时客户主动提供了
