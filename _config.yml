@@ -108,3 +108,51 @@ netlify_cms:
   backend:
     name: git-gateway
     branch: master
+
+# Markdown config
+markdown_it_plus:
+  render:
+    html: true						
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - plugin:
+        name: markdown-it-emoji
+        enable: true  #false就是不开启这个插件
+    - plugin:
+        name: markdown-it-sub
+        enable: true  #false就是不开启这个插件
+    - plugin:
+        name: markdown-it-sup
+        enable: true  #false就是不开启这个插件
+    - plugin:
+        name: markdown-it-deflist
+        enable: true  #false就是不开启这个插件
+    - plugin:
+        name: markdown-it-abbr
+        enable: true  #false就是不开启这个插件
+    - plugin:
+        name: markdown-it-footnote
+        enable: true  #false就是不开启这个插件
+    - plugin:
+        name: markdown-it-ins
+        enable: true  #false就是不开启这个插件
+    - plugin:
+        name: markdown-it-mark
+        enable: true  #false就是不开启这个插件
+    - plugin:
+        name: markdown-it-katex
+        enable: true  #false就是不开启这个插件
+    - plugin:
+        name: markdown-it-toc-and-anchor
+        enable: true  #false就是不开启这个插件
+  anchors:	
+    level: 2
+    collisionSuffix: 'v'
+    permalink: true
+    permalinkClass: header-anchor
+    permalinkSide: 'left'
+    permalinkSymbol: ¶
